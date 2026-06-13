@@ -1,0 +1,64 @@
+# Hotel Room Reservation System
+
+## Overview
+
+The Hotel Room Reservation System is a Java-based application that manages hotel room bookings, cancellations, billing, and room statistics. It demonstrates Object-Oriented Programming (OOP) concepts such as Interfaces, Encapsulation, Abstraction, and Arrays.
+
+## Features
+
+* Room Booking
+* Booking Cancellation
+* Bill Calculation
+* Room Availability Management
+* Hotel Statistics Display
+* Room Validation
+
+## Project Structure
+
+* `Service` Interface – Defines billing functionality.
+* `Room` Class – Stores room details and booking status.
+* `Hotel` Class – Manages rooms, reservations, billing, and statistics.
+* `HotelReservationApp` Class – Main driver class.
+
+## Room Types and Pricing
+
+| Room Type | Price Per Day |
+| --------- | ------------- |
+| Single    | ₹1500         |
+| Double    | ₹2500         |
+| Deluxe    | ₹4000         |
+
+## How It Works
+
+1. Create a hotel with a specified number of floors and rooms.
+2. Book available rooms.
+3. Prevent duplicate bookings.
+4. Calculate room bills based on stay duration.
+5. Cancel bookings when required.
+6. Display hotel statistics.
+
+## Sample Output
+
+Room 101 booked successfully.
+Room 102 booked successfully.
+Room 101 is already occupied.
+Basic Bill for 3 Days = Rs.7500.0
+Booking cancelled for Room 101
+
+HOTEL STATISTICS
+Total Rooms : 12
+Available Rooms : 11
+Occupied Rooms : 1
+
+## OOP Concepts Used
+
+* Interface (`Service`)
+* Encapsulation (`Room` class fields)
+* Abstraction (Interface implementation)
+* Object Creation
+* Method Overriding
+* 2D Arrays
+
+## Author
+
+Hotel Reservation System using Java.
